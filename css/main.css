@@ -16,3 +16,17 @@ html {
 body {
   margin: 0;
 }
+
+.photo {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.photo:nth-child(2), .photo:nth-child(5) {
+  display: none;
+}
